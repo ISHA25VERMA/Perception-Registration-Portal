@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <?php echo $candidate['id']?> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perception.in/whyperception</title>
+    <link rel="stylesheet" href="whyVisit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="root">
+        <div class="top_navbar">
+            <div class="logo">
+                <img src="res/LOGO-REGISTER.png" class="logo" alt="">
+            </div>
+            <div id="nav" class="navBar">
+                <a class="navBar_element" href="events.html">EVENTS</a>
+                <a class="navBar_element" href="whyVisit.html">WHY VISIT</a>
+                <a class="navBar_element" href="sponsors.html">SPONSORS</a>
+                <a class="navBar_element" href="Register_.html">REGISTER</a>
+                <a class="navBar_element" href="Login.html">LOGIN</a>
+            </div>
+            <div onclick="open_close_menu()" class="sideBarIcon">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar2"></div>
+            </div>
+        </div>
+
+        <div style="display: none;" id="menu" class="sidebar-hide sidebar-parent">
+            <div>
+                <span style="cursor: pointer;" onclick="open_close_menu()" class="material-icons-outlined"><img src="res/close.png" alt="">
+                    </span>
+            </div>
+            <a class="sidebar-element" href="home.html">HOME</a>
+            <a class="sidebar-element" href="whyVisit.html">WHY VISIT</a>
+            <a class="sidebar-element" href="events.html">EVENTS</a>
+            <a class="sidebar-element" href="sponsors.html">SPONSORS</a>
+            <a class="sidebar-element" href="Register_.html">REGISTER</a>
+            <a class="sidebar-element" href="Login.html">LOGIN</a>
+            
+        </div>
+
+        <div style = "right: 0%; background-color: rgb(0,0,0);">
+            <div class="why_visit">
+                <img style="right: 0%;position: absolute; width: 100vw;" src="res/rave.png" alt="img">
+                <div class="whyVisit_content">
+                    <p id="whyVisit_heading">WHY VISIT PERCEPTION?</p>
+                    <P id="whyVisit_subHead">
+                        Perception is the largest cultural festival of North India attracting crowd of over 30,000 people. 
+                        With over 150+ events in line, Perception presents a 3-day chronicle playing host to eminent celebrities 
+                        and talented scholars.
+                    </P>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: black;">
+            <div>
+                <p style="background-color: black;" class="whyVisit-heading">ASSOCIATED CELEBRITTIES</p>
+                <div class="celebrities">
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/nucleya.jpg" alt="img">
+                                    <div class="celebrity-name">Nucleya</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/hardy.jpg" alt="img">
+                                    <div class="celebrity-name">Hardy Sandhu</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/BT.jpeg" alt="img">
+                                    <div class="celebrity-name">BTS</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/KENNY.jpg" alt="img">
+                                    <div class="celebrity-name">Kenny Sebestian</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Isha.jpg" alt="img">
+                                    <div class="celebrity-name">Isha Verma</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/bazaarwala.jpg" alt="img">
+                                    <div class="celebrity-name">Pandey Shashidhar</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Himanshu.jpg" alt="img">
+                                    <div class="celebrity-name">Himanshu Sharma</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Tanisha.jpg" alt="img">
+                                    <div class="celebrity-name">Tanisha</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Arushi.jpg" alt="img">
+                                    <div class="celebrity-name">Arushi</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Manish.jpg" alt="img">
+                                    <div class="celebrity-name">Manish</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Khushi.jpg" alt="img">
+                                    <div class="celebrity-name">Khushi Rawat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Seevam.jpg" alt="img">
+                                    <div class="celebrity-name">Seevam Aujla</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Pankaj.jpg" alt="img">
+                                    <div class="celebrity-name">Pankaj Sharma</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Arnav.jpg" alt="img">
+                                    <div class="celebrity-name">Arnav Chohan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Shivani.jpg" alt="img">
+                                    <div class="celebrity-name">Shivani</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Prachi.jpg" alt="img">
+                                    <div class="celebrity-name">Prachi</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Jaimeen.jpg" alt="img">
+                                    <div class="celebrity-name">Jaimeen Patel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Akshat.jpg" alt="img">
+                                    <div class="celebrity-name">Akshat</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Jishnu.jpg" alt="img">
+                                    <div class="celebrity-name">Jishnu</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Aditya.jpg" alt="img">
+                                    <div class="celebrity-name">Aditya</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Sayak.jpg" alt="img">
+                                    <div class="celebrity-name">Sayak</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Adarsh.jpg" alt="img">
+                                    <div class="celebrity-name">Adarsh Gupta</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Harsh.jpg" alt="img">
+                                    <div class="celebrity-name">Harsh Ghalot</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="celebrities-child">
+                            <div>
+                                <div class="celebrities-component">
+                                    <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/abhay.jpg" alt="img">
+                                    <div class="celebrity-name">Abhay Saini</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <div class="celebrities-child">
+                            <img style="height: 45vh; width: 16vw; object-fit: cover;" src="res/Nandan.jpg" alt="img">
+                            <div class="celebrity-name">Nandan</div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function open_close_menu(){
+            let x = window.matchMedia("(max-width: 700px)")
+            if (document.getElementById('menu').style.display === 'none'){
+                document.getElementById('menu').style.display = 'flex'
+                document.getElementById('nav').style.display = 'none';
+            }else{
+                document.getElementById('menu').style.display = 'none'
+                document.getElementById('nav').style.display = 'flex';
+            }
+        }
+
+        function myFunction(x){
+            if (x.matches) { // If media query matches
+                document.getElementById('nav').style.display = 'none'
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 700px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+</body>
+</html>
