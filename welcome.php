@@ -70,7 +70,7 @@ $candidate = mysqli_fetch_assoc($result);
           <a class="nav-link active" aria-current="page" href="logout.php">LOGOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
         </li>
       </ul>
     </div>

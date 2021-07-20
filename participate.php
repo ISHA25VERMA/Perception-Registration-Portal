@@ -89,7 +89,7 @@ if ($rows >0){
 <body>
 
     <div class="home">
-        <a href="home.html"><img src="res/icons8-home-30.png" alt="home"></a>
+        <a href="index.html"><img src="res/icons8-home-30.png" alt="home"></a>
     </div>
 
     <div class="registerBox">
@@ -183,8 +183,8 @@ if ($rows >0){
             </div>
 
             <input type="submit" value= "Register">
-            <input type="submit" value= "Login">
 
+            <a class="btn" href="Login.html">LOGIN</a>
         </form>  
     </div>
 </body>

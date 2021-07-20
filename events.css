@@ -121,9 +121,7 @@ a:hover::after {
     z-index: 1000;
 } */
 .sidebar-hide{
-    -webkit-transition: .6s;
     transition: .6s;
-    -webkit-transform: translate(100%);
     transform: translate(100%);
 }
 
